@@ -1,4 +1,4 @@
-fn fibonacci(n: u32) -> u32 {
+fn fibonacci(n: u128) -> u128 {
     if n == 0 {
         return 0;
     } else if n == 1 {
@@ -9,7 +9,7 @@ fn fibonacci(n: u32) -> u32 {
 }
 
 fn main() {
-    println!("{}", fibonacci(40));
+    println!("La suma de los numeros fibonacci 20 veces es {}", fibonacci(20));
 }
 
 
