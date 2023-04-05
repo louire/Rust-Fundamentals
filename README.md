@@ -13,3 +13,10 @@ La diferencia entre los signed y unsigned, es que estos últimos solo utilizan s
 <p align = "center">
  <img src= https://miro.medium.com/max/1400/1*MxVEixCs1iS1shQs2JVTYg.png width="550">
 </p>
+
+<p align = "center">
+ <img src= https://miro.medium.com/max/1400/1*ScXl3GI_8EY0Ow4t-1dRUg.png width="550">
+</p>
+
+
+
