@@ -11,5 +11,5 @@ Al manejar un número definido de bits, cada variable puede albergar hasta un ci
 La diferencia entre los signed y unsigned, es que estos últimos solo utilizan su capacidad para almacenar números positivos, mientras que los signed lo usan para una cantidad igual de números positivos y negativos.
 
 
- <img src= https://miro.medium.com/max/1400/1*MxVEixCs1iS1shQs2JVTYg.png width="350">
+ <img src= https://miro.medium.com/max/1400/1*MxVEixCs1iS1shQs2JVTYg.png width="550">
 
