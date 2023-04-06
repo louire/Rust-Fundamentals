@@ -1,18 +1,25 @@
 fn main(){
-    //Formulario to csm
-    println!("Hola cual es tu nombre? ");
-    let mut nombre = String::new();
-    std::io::stdin().read_line(&mut nombre).unwrap();
-    nombre = nombre.trim().to_string();
+    println!("Years? ");     
+    let mut edad = String::new();     
+    std::io::stdin().read_line(&mut edad).unwrap();
+    //Convertir edad de string a int
+    let edad_int : u8 = edad.trim().parse().unwrap();
 
 
-    println!("Holaa de que pais veni boluo csm blu daba diba duba duba da diba? ");
-    let mut pais = String::new();
-    std::io::stdin().read_line(&mut pais).unwrap();
-    pais = pais.trim().to_string();
+    if edad_int >= 18 && edad_int != 30{
+        println!("Tienes {} años, eres mayor de edad", edad_int);
 
-    println!("Entonces te llamas {} y eres de {} csm",nombre,pais);
-    
+        if edad_int > 60{
+            println!("Eres de la tercera edad");
+        }
+    }
+    else if edad_int == 30{
+        println!("Felicidades, tienes 30");
+    }
+    else{
+        println!("Tienes {} años, eres menor de edad", edad_int);
+    }
+
 
 
 }
@@ -20,19 +27,23 @@ fn main(){
 
 
 
+// fn main(){
+//     //Formulario to csm
+//     println!("Hola cual es tu nombre? ");
+//     let mut nombre = String::new();
+//     std::io::stdin().read_line(&mut nombre).unwrap();
+//     nombre = nombre.trim().to_string();
 
 
+//     println!("Holaa de que pais veni boluo csm blu daba diba duba duba da diba? ");
+//     let mut pais = String::new();
+//     std::io::stdin().read_line(&mut pais).unwrap();
+//     pais = pais.trim().to_string();
 
-
-
-
-
-
-
-
-
-
-
+//     println!("Entonces te llamas {} y eres de {} csm",nombre,pais);
+    
+// }
+ 
 
 
 
