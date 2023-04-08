@@ -17,9 +17,6 @@ fn main(){
 
 
 
-
-
-
 // fn main(){
 //     println!("Years? ");     
 //     let mut edad = String::new();     
