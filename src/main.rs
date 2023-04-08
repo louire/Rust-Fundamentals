@@ -1,30 +1,46 @@
 fn main(){
-    println!("Years? ");     
-    let mut edad = String::new();     
-    std::io::stdin().read_line(&mut edad).unwrap();
-    //Convertir edad de string a int
-    let edad_int : u8 = edad.trim().parse().unwrap();
+    //Dos numeros que vamos a sumar
+    let numero_1 = 123;
+    let numero_2 = 321;
 
-
-    if edad_int >= 18 && edad_int != 30{
-        println!("Tienes {} años, eres mayor de edad", edad_int);
-
-        if edad_int > 60{
-            println!("Eres de la tercera edad");
-        }
-    }
-    else if edad_int == 30{
-        println!("Felicidades, tienes 30");
-    }
-    else{
-        println!("Tienes {} años, eres menor de edad", edad_int);
-    }
-
+    let suma = numero_1 + numero_2;
+    //mostrar numeros en pantalla
+    println!("La suma es: {}",suma);
 
 
 }
 
 
+
+
+
+
+
+
+
+
+
+// fn main(){
+//     println!("Years? ");     
+//     let mut edad = String::new();     
+//     std::io::stdin().read_line(&mut edad).unwrap();
+//     //Convertir edad de string a int
+//     let edad_int : u8 = edad.trim().parse().unwrap();
+
+//     if edad_int >= 18 && edad_int != 30{
+//         println!("Tienes {} años, eres mayor de edad", edad_int);
+
+//         if edad_int > 60{
+//             println!("Eres de la tercera edad");
+//         }
+//     }
+//     else if edad_int == 30{
+//         println!("Felicidades, tienes 30");
+//     }
+//     else{
+//         println!("Tienes {} años, eres menor de edad", edad_int);
+//     }
+// }
 
 
 // fn main(){
