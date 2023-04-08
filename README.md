@@ -20,3 +20,11 @@ La diferencia entre los signed y unsigned, es que estos últimos solo utilizan s
 
 
 
+Que es unwrap? / Manejo de Errores
+- Se usa Unwrap cuando estamos seguros que no habra ningun error
+- En rust no existe el null;
+- Si un valor puede o no existir se usa Option<T> , siendo T el tipo base.
+- En rust los errores son un tipo de dato.
+- Si una respuesta puede devolver error, sera del tipo Result<T,E>, siendo T el tipo sin error y E el error dado
+- Discusion de stackOverflow para usar unwrap de la mejor manera
+
