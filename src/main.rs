@@ -1,33 +1,53 @@
-//Lo que vi en el curso en general, esta comentado por clases, esta ultima parte es de la ultima clase
-//Hare una calculadora, dejare el link del repo aqui cuando este lista: 
-
 fn main(){
-    //Dos numeros que vamos a sumar
-    let numero_1 = 123;
-    let numero_2 = 321;
+    let mut nombres:Vec<String> = Vec::new();
 
-    let suma = numero_1 + numero_2;
+    for _i in 0..3{
+        println!("Introduce un nombre: ");
+        let mut nombre = String::new();
+        std::io::stdin().read_line(&mut nombre).unwrap();
+    
+        nombres.push(nombre);
+    }
 
-    loop {
-
-        //mostrar numeros en pantalla
-        println!("La suma es de {} y {} es: ",numero_1,numero_2);
-
-        //pedir al usuario la suma
-
-        let mut suma_usuario = String::new();
-        std::io::stdin().read_line(&mut suma_usuario).unwrap();
-
-        let suma_usuario_int: i32 = suma_usuario.trim().parse().unwrap();
-
-        if suma_usuario_int == suma {
-            println!("El resultado {} es correcto",suma);
-            break;
-        } else {
-            println!("El resultado {} es incorrecto, intentalo denuevo",suma_usuario_int);
-        }
+    for nombre in nombres{
+        println!("Los nombres son {}", nombre);
     }
 }
+
+
+
+
+
+// //Lo que vi en el curso en general, esta comentado por clases, esta ultima parte es de la ultima clase
+// //Hare una calculadora, dejare el link del repo aqui cuando este lista: https://github.com/louire/Rust_scientific_calculator
+
+// fn main(){
+//     //Dos numeros que vamos a sumar
+//     let numero_1 = 123;
+//     let numero_2 = 321;
+
+//     let suma = numero_1 + numero_2;
+
+//     loop {
+
+//         //mostrar numeros en pantalla
+//         println!("La suma es de {} y {} es: ",numero_1,numero_2);
+
+//         //pedir al usuario la suma
+
+//         let mut suma_usuario = String::new();
+//         std::io::stdin().read_line(&mut suma_usuario).unwrap();
+
+//         let suma_usuario_int: i32 = suma_usuario.trim().parse().unwrap();
+
+//         if suma_usuario_int == suma {
+//             println!("El resultado {} es correcto",suma);
+//             break;
+//         } else {
+//             println!("El resultado {} es incorrecto, intentalo denuevo",suma_usuario_int);
+//         }
+//     }
+// }
 
 
 // fn main(){
