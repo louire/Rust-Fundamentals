@@ -26,7 +26,8 @@ Que es unwrap? / Manejo de Errores
 - Si un valor puede o no existir se usa Option<T> , siendo T el tipo base.
 - En rust los errores son un tipo de dato.
 - Si una respuesta puede devolver error, sera del tipo Result<T,E>, siendo T el tipo sin error y E el error dado
-- Discusion de stackOverflow para usar unwrap de la mejor manera
+- Discusion de stackOverflow para usar unwrap de la mejor manera 
+  .
 
  
   
