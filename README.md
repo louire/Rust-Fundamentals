@@ -27,7 +27,7 @@ Que es unwrap? / Manejo de Errores
 - En rust los errores son un tipo de dato.
 - Si una respuesta puede devolver error, sera del tipo Result<T,E>, siendo T el tipo sin error y E el error dado
 - Discusion de stackOverflow para usar unwrap de la mejor manera 
-  .
+  
 
  
   
